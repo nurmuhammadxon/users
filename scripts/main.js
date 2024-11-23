@@ -104,4 +104,7 @@ function DeleteFunction(id) {
     data.splice(id - 1, 1);
     data.forEach((item, index) => item.id = index + 1);
     dataYangila();
+    if (data.length === 0) {
+        tableBox.classList.add('active');
+    }
 }

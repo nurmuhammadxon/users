@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+
+    <section class="userAdd">
+        <div class="btns-box">
+            <button class="btn" id="addBtn">Add user</button>
+            <button class="btn active" id="closeBtn">Close</button>
+        </div>
+        <form action="" class="active" id="dataForm">
+            <label>
+                Name
+                <input type="text" required class="inputAdd">
+            </label>
+            <label>
+                Last Name
+                <input type="text" required class="inputAdd">
+            </label>
+            <label>
+                Age
+                <input type="text" required class="inputAdd">
+            </label>
+            <label>
+                Email
+                <input type="email" required class="inputAdd">
+            </label>
+        </form>
+        <div class="btn-box active" id="addBtnInput">
+            <button class="btn btnAdd" id="btnAdd">
+                Add User
+            </button>
+        </div>
+        <div class="table-box active">
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="editUserBox active">
+            <form action="">
+                <label>
+                    Name
+                    <input type="text" class="editInput">
+                </label>
+                <label>
+                    Last Name
+                    <input type="text" class="editInput">
+                </label>
+                <label>
+                    Age
+                    <input type="text" class="editInput">
+                </label>
+                <label>
+                    Email
+                    <input type="text" class="editInput">
+                </label>
+            </form>
+            <div class="btn-box">
+                <button class="btn btnAdd" id="editBtn">
+                    Save Changes
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
